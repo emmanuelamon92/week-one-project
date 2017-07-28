@@ -25,9 +25,15 @@ Header{
 
 }
 
+#endlessPossibilities{
+  background-image: url("./optimized/product-1.jpg");
+
+}
+
 a:active{
   color: #968772
 }
+
 a:hover{
   color: #cd5d67;
 }
