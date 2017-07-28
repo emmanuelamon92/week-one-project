@@ -66,5 +66,115 @@ a:active a{
 footer{
   padding: 20px;
   background-color: #968772;
+}
+
+/*******************/
+/*Home Page Styling*/
+/*******************/
+
+#title{
+  text-align: center;
+  font-size: 25px;
+}
+
+#title h1{
+  margin-top: 30px;
+  margin-bottom: 0px;
+
+}
+
+#title h3{
+  font-weight: 100;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.picture-navigation{
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #F2F1E8;
+}
+
+.picture-navigation p{
+  background-color: #968772;
+  padding: 5px;
+  margin: 0px;
+}
+
+.first_row{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.second_row{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+#endlessPossibilities{
+  background-image: url("../images/product-1.jpg");
+  background-size: cover;
+  padding: 20px;
+  padding-left: 0px;
+  padding-bottom: 5px;
+  /*margin: 10px;*/
+}
+#sets{
+  background-image: url("../images/product-2.jpg");
+  background-size: cover;
+  padding: 20px;
+  padding-left: 0px;
+  padding-bottom: 5px;
+  /*margin: 10px;*/
+
+}
+#textures{
+  background-image: url("../images/product-3.jpg");
+  background-size: cover;
+  padding: 20px;
+  padding-left: 0px;
+  padding-bottom: 5px;
+  /*margin: 10px;*/
+
+}
+#tea-time{
+  background-image: url("../images/product-4.jpg");
+  background-size: cover;
+  padding: 20px;
+  padding-left: 0px;
+  padding-bottom: 5px;
+  /*margin: 10px;*/
+
+}
+#jars-and-containers{
+  background-image: url("../images/product-5.jpg");
+  background-size: cover;
+  padding: 20px;
+  padding-left: 0px;
+  padding-bottom: 5px;
+  /*margin: 10px;*/
+
+}
+#wasabi-and-saki{
+  background-image: url("../images/product-6.jpg");
+  background-size: cover;
+  padding: 20px;
+  padding-left: 0px;
+  padding-bottom: 5px;
+  /*margin: 10px;*/
+
+}
+#sippin-on-sunshine{
+  background-image: url("../images/product-7.jpg");
+  background-size: cover;
+  padding: 20px;
+  padding-left: 0px;
+  padding-bottom: 5px;
+  /*margin: 10px;*/
+
 
 }
