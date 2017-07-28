@@ -14,26 +14,57 @@ Button Text (Hover): #FFFFFF
 Input Border Bottom: #968772
 Input Border Bottom (Focus): #967343
 */
-Body{
-  margin: 0 auto;
+
+/*CSS - Cascading Style Set
+Outside In. Look at the containers and then do
+things on the inside. Comment out general things
+that apply to the whole page.*/
+/****************/
+/*navigation_bar*/
+/****************/
+
+body{
+  margin: 0;
+  padding: 0;
   background-color: #f2f1e8;
-  color: #131511;
+  font-family: #131511; /*invalid text?*/
 }
 
-Header{
-  background-color: #FFFFFF;
-
+#navigation_bar {
+  background-color: #ffffff;
+  box-shadow: 0px 1px 5px lightgrey;
+  display: flex;
 }
 
-#endlessPossibilities{
-  background-image: url("./optimized/product-1.jpg");
-
+#logo img {
+  block-size: 45px;
+  padding: 7px;
 }
 
-a:active{
-  color: #968772
+.main_navigation {
+  font-family: #2b2f26;
+  align-self: center;
+  flex-basis: 100%;
+  text-align: center;
+}
+
+.main_navigation a{
+  padding: 35px;
 }
 
 a:hover{
-  color: #cd5d67;
+  color:  #968772;
+}
+a:active a{
+  color: #967343;
+}
+
+/********/
+/*Footer*/
+/********/
+
+footer{
+  padding: 20px;
+  background-color: #968772;
+
 }
