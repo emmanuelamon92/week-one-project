@@ -65,7 +65,8 @@ a:active a{
 
 footer{
   padding: 20px;
-  background-color: #968772;
+  background-color: #28382b;
+  color: #f2f1e8;
 }
 
 /*******************/
@@ -99,9 +100,10 @@ footer{
 }
 
 .picture-navigation p{
-  background-color: #968772;
+  background-color: #28382b;
   padding: 5px;
-  margin: 0px;
+  /*margin: 0px;*/
+  width: 140px;
 }
 
 .first_row{
@@ -118,6 +120,8 @@ footer{
 
 
 #endlessPossibilities{
+  display: flex;
+  align-items: flex-end;
   background-image: url("../images/product-1.jpg");
   background-size: cover;
   padding: 20px;
@@ -125,8 +129,11 @@ footer{
   padding-bottom: 5px;
   width: 60%;
   margin: 5px;
+  height: 350px;
 }
 #sets{
+  display: flex;
+  align-items: flex-end;
   background-image: url("../images/product-2.jpg");
   background-size: cover;
   padding: 20px;
@@ -137,6 +144,8 @@ footer{
 
 }
 #textures{
+  display: flex;
+  align-items: flex-end;
   background-image: url("../images/product-3.jpg");
   background-size: cover;
   padding: 20px;
@@ -147,6 +156,8 @@ footer{
 
 }
 #tea-time{
+  display: flex;
+  align-items: flex-end;
   background-image: url("../images/product-4.jpg");
   background-size: cover;
   padding: 20px;
@@ -154,9 +165,12 @@ footer{
   padding-bottom: 5px;
   width: 20%;
   margin: 5px;
+  height: 200px;
 
 }
 #jars-and-containers{
+  display: flex;
+  align-items: flex-end;
   background-image: url("../images/product-5.jpg");
   background-size: cover;
   padding: 20px;
@@ -167,6 +181,8 @@ footer{
 
 }
 #wasabi-and-saki{
+  display: flex;
+  align-items: flex-end;
   background-image: url("../images/product-6.jpg");
   background-size: cover;
   padding: 20px;
@@ -177,6 +193,8 @@ footer{
 
 }
 #sippin-on-sunshine{
+  display: flex;
+  align-items: flex-end;
   background-image: url("../images/product-7.jpg");
   background-size: cover;
   padding: 20px;
@@ -191,6 +209,16 @@ footer{
 
 .section1{
   padding: 50px 200px;
+}
+
+#picParaInside{
+  float: left;
+}
+
+blockquote {
+  padding-left: 20px;
+  border-left: 2px solid #968772;
+  display: inline; margin:0
 }
 
 .section1 h1{
@@ -254,10 +282,53 @@ table td{
 /*Newsletter Page Styling*/
 /*************************/
 .Sign-up{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40em;
   background-image: url("../images/background-2.jpg");
   background-size: cover;
 }
 
 .Sign-up h1{
   margin: 0px
+}
+
+#signUpBlock {
+  display: flex;
+  flex-direction: column;
+  padding: 1.5em;
+  background-color: white;
+  width: 50%;
+}
+
+#signUpBlockTitle {
+  text-align: center;
+}
+
+.Name_Email {
+  display: flex;
+  flex-direction: column;
+}
+
+.Name_Email #name, #email{
+  margin: 20px;
+  font-size: 20px;
+  /*border-top: 0px;*/
+  border: 0px;
+  border-bottom: 2px solid #968772;
+}
+
+.Name_Email #submit {
+  font-size: 15px;
+  color: #F2F1E8;
+  align-self: center;
+  background-color: #968772;
+  padding: 2px;
+  padding-left: 0px;
+  padding-bottom: 5px;
+  width: 20%;
+  margin: 5px;
+  height: 45px;
+
 }
