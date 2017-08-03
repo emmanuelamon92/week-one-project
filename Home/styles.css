@@ -19,6 +19,7 @@ Input Border Bottom (Focus): #967343
 Outside In. Look at the containers and then do
 things on the inside. Comment out general things
 that apply to the whole page.*/
+
 /****************/
 /*navigation_bar*/
 /****************/
@@ -28,6 +29,7 @@ body{
   padding: 0;
   background-color: #f2f1e8;
   font-family: #131511; /*invalid text?*/
+  line-height: 30px;
 }
 
 #navigation_bar {
@@ -211,8 +213,11 @@ footer{
   padding: 50px 200px;
 }
 
-#picParaInside{
-  float: left;
+#picParaInside img {
+  height: 70px;
+  width: 70px;
+  float:left;
+  margin-right: 20px;
 }
 
 blockquote {
@@ -258,16 +263,22 @@ blockquote {
 
 table{
   border-collapse: collapse;
-  width: 70%;
+  width: 80%;
   text-align: left;
   text-indent: .5em;
 
 }
 table td{
+  font-size: 18px;
   border: .5px solid black;
   height: 10px;
   text-align: left;
   padding: 4px;
+}
+
+#color {
+
+  background-color: #967343;
 }
 
 .tableHead td{
